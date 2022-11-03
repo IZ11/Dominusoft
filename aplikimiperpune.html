@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Aplikim për punë</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/styleaplikimi.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="js/aplikimi.js"></script>
+</head>
+<body id="lista">
+<header>
+<ul>
+<li><a href = "index.html" target="_blank"> FAQJA KRYESORE </a></li>
+<li><a href = "produktet.html" target="_blank"> PRODUKTET </a></li>
+<li><a href = "porositonline.html" target="_blank"> POROSIT ONLINE</a></li>
+<li><a href = "rrethpoint.html" target="_blank"> RRETH NESH</a></li>
+<li><a href = "kontakt.html" target="_blank"> KONTAKT</a></li>
+<li id="here"><a href = "aplikimiperpune.html"> APLIKIM PËR PUNË</a></li>
+</ul>
+<div id="fotoja">
+<img id="img1" src="foto/point1.png" alt="point" width="210px" height="100px">
+</div>
+</header>
+<div id="faqja">
+<h1>APLIKO ONLINE</h1>
+<form name="forma" onsubmit="return kontrolli()">
+<fieldset>
+<legend>Aplikimi për punësim:</legend><br>
+<label>Emri:</label><br><br>
+<input class="inputi" type="text" id="emri" name="name"><br><br>
+<p id="p1"></p>
+<label for="surname">Mbiemri:</label><br><br>
+<input class="inputi" type="text" id="mbiemri" name="surname"><br><br>
+<p id="p2"></p>
+<label>Mosha:</label><br><br>
+<input class="inputi" type="text" id="age" name="mosha"><br><br>
+<p id="p3"></p>
+<label>Numri i telefonit:</label><br><br>
+<input class="inputi" type="text" id="numri" name="number"><br><br>
+<p id="p4"></p>
+<label>Email:</label><br><br>
+<input class="inputi" type="email" id="mail" name="email"> <br><br> 
+<p id="p5"></p>
+<label>Adresa:</label><br><br>
+<textarea rows="5" cols="50" id="adresa1" name="adresa" style="font-size:17px;"></textarea><br><br>
+<p id="p6"></p>
+<label for="roli">Zgjidhni rolin në të cilin doni të punoni:</label><br><br>
+  <select id="rolinepune" name="rolinepune">
+    <option value="kuzhinier">Kuzhinier</option>
+    <option value="kamarier">Kamarier</option>
+    <option value="Shperndaresushqimi">Shpërndarës Ushqimi(mjeti:motorr)</option>
+  </select><br><br>
+<label>Eksperienca të mëparshme(Shkruani "nuk ka",nqse nuk keni eksperienca të mëparshme):</label><br><br>
+<textarea rows="5" cols="50" id="eks" name="eksperienca" style="font-size:17px;"></textarea><br><br>
+<p id="p7"></p>
+<label>Shpjegoni me pak fjali përse dëshironi të punoni me "Point":</label><br><br>
+<textarea rows="5" cols="50" id="reason" name="arsye" style="font-size:17px;"></textarea><br><br>
+<p id="p8"></p>
+<input id="submit" type="submit" value="Apliko">
+</fieldset>
+</form>
+</div>
+<footer>
+<p>Email:pointdimensionless@gmail.com</p>
+<p>Rrjete sociale:</p>
+<a href="https://www.facebook.com/pointfoodelbasan/" target="_blank" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/point_dimensionless/?hl=en" target="_blank" class="fa fa-instagram"></a><br><br>
+<div>
+<img id="img"src="foto/point.png" alt="point" width="235" height="110">
+</div>
+<p>© 2020 Fast Food Restaurant "Point". All Rights Reserved.</p>
+<p>Për të kaluar në fillim të faqes klikoni këtu: <a href="#lista"><span style="color:white;font-weight:bold;">Shko në fillim të faqes.</span></a></p>
+</footer>
+</body>
+</html>

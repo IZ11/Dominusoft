@@ -1,0 +1,151 @@
+*{
+box-sizing: border-box;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+}
+
+ul{
+float:left;
+list-style-type:none;
+margin-top:25px;
+}
+
+header{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../foto/back3.jpg");
+background-size:cover;
+background-position:center;
+height:500px;
+}
+
+ul li{
+display:inline-block;
+}
+
+ul li a{
+text-decoration:none;
+color:#FFF;
+padding:5px 20px;
+border:1px solid transparent;
+transition:0.6s ease;
+font-family:Century Gothic;
+}
+
+ul li a:hover{
+background-color:white;
+color:black;
+}
+
+ul li#here a {
+background-color:#ff6600;
+color: white;
+}
+
+#fotoja {
+float:right;
+padding-right:35px;
+padding-top:12px;
+}
+
+
+h1{
+text-align:center;
+font-size:45px;
+color:black;
+}
+
+#faqja{
+background-color:white;
+}
+
+#div2 {
+float: left;
+width: 33.33%;
+padding: 40px;
+}
+
+#div3:after {
+content: "";
+display: table;
+clear: both;
+}
+
+h3{
+color:black;
+}
+
+button{
+border:none;
+background:#ff6600;
+padding:10px 30px;
+font-size:25px;
+cursor:pointer;
+}
+
+button:hover{
+background-color:black;
+color:white;
+font-size:26px;
+}
+
+img {
+border-radius: 8px;
+}
+
+footer {
+background-color:black;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+#img {
+border-radius: 50%;
+}
+
+.fa {
+padding: 20px;
+text-align:center;
+font-size: 30px;
+width: 50px;
+text-decoration: none;
+border-radius:50%;
+margin:5px 7px;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-instagram {
+background: #ff66d9;
+color: white;
+}
+
+#panel, #flip {
+padding: 5px;
+background-color:#ff6600 ;
+border: solid 1px white;
+}
+
+#panel {
+padding: 50px;
+display: none;
+color:white;
+}
+
+#flip{
+cursor:pointer;
+font-size:30px;
+text-align:center;
+color:white;
+}
+
+#flip:hover {
+opacity: 0.85;
+}

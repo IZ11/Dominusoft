@@ -1,0 +1,134 @@
+*{
+box-sizing: border-box;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+}
+
+ul{
+float:left;
+list-style-type:none;
+margin-top:25px;
+}
+
+header{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../foto/back2.jpg");
+background-size:cover;
+background-position:center;
+height:500px;
+}
+
+ul li{
+display:inline-block;
+}
+
+ul li a{
+text-decoration:none;
+color:#FFF;
+padding:5px 20px;
+border:1px solid transparent;
+transition:0.6s ease;
+font-family:Century Gothic;
+}
+
+ul li a:hover{
+background-color:white;
+color:black;
+font-family:Century Gothic;
+}
+
+ul li#here a {
+background-color:#ff6600;
+color: white;
+}
+
+#faqja{
+background-color:white;
+}	
+
+#fotoja {
+float:right;
+padding-right:35px;
+padding-top:12px;
+}
+
+
+h1{
+text-align:center;
+font-size:45px;
+color:black;
+}
+
+form{
+font-size:20px;
+font-weight:bold;
+}
+
+footer {
+background-color:black;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+#img {
+border-radius: 50%;
+}
+
+.inputi{
+width:250px;
+height:40px;
+font-size:20px;
+}
+
+input,textarea{
+border-radius:5px;
+border:solid #ff6600;
+}
+
+#submit{
+background-color:#ff6600;	
+font-size:25px;
+padding: 10px 15px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+color:white;
+}
+
+#submit:hover{
+background-color:#ff6600;
+font-size:26px;
+}
+
+input:focus{
+outline:none;
+}
+
+textarea:focus{
+outline:none;
+}
+
+.fa {
+padding: 20px;
+text-align:center;
+font-size: 30px;
+width: 50px;
+text-decoration: none;
+border-radius:50%;
+margin:5px 7px;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-instagram {
+background: #ff66d9;
+color: white;
+}
